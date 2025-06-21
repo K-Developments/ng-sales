@@ -135,17 +135,16 @@
   }
   
   html {
-    font-size: 90%;
+    font-size: 85%;
   }
   
   body {
     overflow: hidden;
-    min-height: 100vh;
   }
 
   [data-radix-scroll-area-viewport] {
     max-height: 470px !important;
-    overflow-y: auto !important;
+    overflow: auto !important;
     scrollbar-width: thin;
   }
 
