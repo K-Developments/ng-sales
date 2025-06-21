@@ -136,13 +136,10 @@
   
   html {
     font-size: 90%;
-    @media (min-width: 768px) {
-      font-size: 100%;
-    }
   }
   
   body {
-    overflow-x: hidden;
+    overflow: hidden;
     min-height: 100vh;
   }
 
